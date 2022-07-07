@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url(//db.onlinewebfonts.com/c/2a81b781598a1f6a0499de86fbd9afcc?family=EffraW01-Regular);
+body {
+    font-family: 'EffraW01-Regular';
+}
+
+.indicators {
+    background-color: #707070;
+}
+
+input:focus {
+    outline: none;
+}
