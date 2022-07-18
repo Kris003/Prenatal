@@ -1,15 +1,27 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-@import url(//db.onlinewebfonts.com/c/2a81b781598a1f6a0499de86fbd9afcc?family=EffraW01-Regular);
-body {
-    font-family: 'EffraW01-Regular';
-}
-
-.indicators {
-    background-color: #707070;
-}
-
-input:focus {
-    outline: none;
-}
+    @import 'tailwindcss/base';
+    @import 'tailwindcss/components';
+    @import 'tailwindcss/utilities';
+    @import url(//db.onlinewebfonts.com/c/2a81b781598a1f6a0499de86fbd9afcc?family=EffraW01-Regular);
+    body {
+        font-family: 'EffraW01-Regular';
+    }
+    
+    .slick-initialized .slick-slide {
+        margin: 0 15px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .slick-next,
+    .slick-prev {
+        z-index: 5;
+    }
+    
+    .slick-next:before {
+        content: url("../images/NextArrow.svg") !important;
+    }
+    
+    .slick-prev:before {
+        content: url("../images/PrevArrow.svg") !important;
+    }
