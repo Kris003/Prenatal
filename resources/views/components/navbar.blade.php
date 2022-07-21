@@ -4,14 +4,13 @@
 
     <!-- Logo -->
     <div class="">
-        <img src="images\svg\CompanyLogo.svg" alt="" class=" block mx-auto  mt-2 lg:w-9/12 lg:h-9/12   ">
+        <img src="images\svg\CompanyLogo.svg" alt="" class=" block mx-auto  mt-2 lg:h-9/12  lg:w-[150px] xl:w-[200px] ">
     </div>
     <!-- Search bar -->
 
     <div class=" items-center border-b  border-gray-800 py-1 w-1/2 hidden lg:flex">
-        <input
-            class="appearance-none bg-transparent border-none  w-full  text-base font-normal text-black placeholder-black mr-3 py-1 px-2 "
-            type="text" placeholder="Che prodotto stai cercando?" value="" name="">
+        <input placeholder="Che prodotto stai cercando?"
+            class="appearance-none bg-transparent border-none  w-full  text-base font-normal text-black placeholder-black mr-3 py-1 px-2 outline-none">
         <button type="submit" class="flex-shrink-0 border-transparent py-1 px-2 rounded ">
             <svg xmlns="http://www.w3.org/2000/svg" width="22.747" height="23.312" viewBox="0 0 22.747 23.312"
                 class="w-6 h-6">
@@ -22,7 +21,6 @@
                 </g>
             </svg> </button>
     </div>
-
 
 
     <!-- Icons -->

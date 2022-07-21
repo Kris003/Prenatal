@@ -1,7 +1,7 @@
-<footer>
+<footer class="-mb-32">
         <div class="mb-28">
             <div class="inline-flex ">
-                <img src="images\svg\CompanyLogo.svg" alt="" class="w-2/6 h-2/6 ml-24 md:hidden block ">
+                <img src="images\svg\CompanyLogo.svg" alt="" class="w-32 ml-24 md:ml-72 lg:ml-14 xl:ml-24">
 
                 <button id="dropdownInformationButton" data-dropdown-toggle="dropdownInformation"
                     class="  font-medium rounded-lg text-sm  py-2.5 text-center inline-flex items-center ml-5"
@@ -31,11 +31,11 @@
 
                 </div>
             </div>
-            <p class="text-xs font-bold text-center mt-4">©2020 Prenatal S.p.A.Allrightsreserved. Via Bertani 620154
+            <p class="text-xs font-bold text-center mt-4 lg:font-medium lg:relative lg:-top-12 ">©2020 Prenatal S.p.A.Allrightsreserved. Via Bertani 620154
                 Milano (MI) - P.I. 00857680151
             </p>
 
-            <div class="inline-flex absolute left-20 mt-10">
+            <div class="inline-flex absolute left-20 mt-10 lg:-mt-[4.5rem] md:left-64  lg:left-[49rem] xl:left-[72rem] ">
                 <a href=""> <img src="images\svg\footer\FacebookIcon.svg" alt="" class="w-7 h-7 ml-3"></a>
                 <a href=""> <img src="images\svg\footer\InstagramIcon.svg" alt="" class="w-7 h-7 ml-3"></a>
                 <a href=""> <img src="images\svg\footer\TwitterIcon.svg" alt="" class="w-7 h-7 ml-3"></a>

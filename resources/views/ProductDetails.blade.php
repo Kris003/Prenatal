@@ -5,9 +5,11 @@
     <x-navbar />
     <x-accessories />
     <x-product_offers />
-    <x-accessories_2 />
+    <x-questo_prodotto />
+    <x-recommend />
     <x-tags />
-    <x-bottom_menu />
+    <x-discount />
+    <x-menu_bottom />
     <x-footer />
 @endsection
 

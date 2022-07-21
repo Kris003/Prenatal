@@ -48,26 +48,26 @@
             </button>
         </div>
         <div class=" text-center ">
-            <button class="bg-[#E72A6E] text-white font-bold  rounded-full  py-1  px-4 my-6  w-72  lg:grid   lg:ml-0">
-                <img src="images\cart_icon.png" alt="" class="relative left-4 top-4"> <span class=" mb-4 text-sm ">
+            <button class="bg-[#E72A6E] text-white font-bold  rounded-full  py-1  px-4 my-6  w-72 md:block md:w-full lg:w-72 lg:grid   lg:ml-0">
+                <img src="images\cart_icon.png" alt="" class="relative left-4 md:left-60 lg:left-4 top-4"> <span class=" mb-4 text-sm ">
                     AGGIUNGIAL
                     CARRELLO
                 </span>
             </button>
             <button
-                class="bg-transparent text-[#EB6297] border border-[#EB6297] font-boold rounded-full  py-2 px-4   w-72 mb-5 pb-4 text-sm lg:grid  ">
+                class="bg-transparent text-[#EB6297] border border-[#EB6297] font-boold rounded-full  py-2 px-4   w-72 lg:w-72 md:w-full mb-5 pb-4 text-sm lg:grid  ">
                 PRENOTA E RITIRAIN NEGOZIO
             </button>
-            <div class="font-medium text-xs lg:mr-80 w-72">
+            <div class="font-medium text-xs  w-72 md:mx-auto ">
                 <span class="text-3xl text-[#E72A6E]  inline ml-8">&#9825 </span>
                 <p class="px-2  inline "> Aggiungi alla lista desideri</p>
                 <p class=""> <img src="images\present_icon.png" alt="" class="inline px-2 py-3"> Aggiungi alla lista
                     nascita </p>
             </div>
 
-            <p class="text-[#E72B6F] mt-5 mb-1 ml-6 justify-start flex text-xs">PRODOTTO PRESENTE IN</p>
+            <p class="text-[#E72B6F] mt-5 mb-1 ml-6 justify-start flex text-xs md:ml-[230px] lg:ml-6 ">PRODOTTO PRESENTE IN</p>
 
-            <div class="mx-5 w-72 h-24 mb-3 border border-[#707070]  pt-5 justify-start">
+            <div class="mx-5 w-72 h-24 mb-3 border border-[#707070]  pt-5 justify-start md:mx-auto lg:mx-0">
                 <div class=" pr-28  border-b-2 text-xs">
                     <p class="inline text-[#44A1CB]"> <img src="images\svg\blue_heart.svg" alt=""
                             class="inline w-3 h-3 mx-2">
